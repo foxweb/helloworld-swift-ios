@@ -12,6 +12,7 @@
 		D15759D51F8D762A000F8BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15759D31F8D762A000F8BBE /* Main.storyboard */; };
 		D15759D71F8D762A000F8BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15759D61F8D762A000F8BBE /* Assets.xcassets */; };
 		D15759DA1F8D762A000F8BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15759D81F8D762A000F8BBE /* LaunchScreen.storyboard */; };
+		D16AC8EB2045F777000A334C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16AC8EA2045F777000A334C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		D15759D61F8D762A000F8BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15759D91F8D762A000F8BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D15759DB1F8D762A000F8BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D16AC8EA2045F777000A334C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D15759D61F8D762A000F8BBE /* Assets.xcassets */,
 				D15759D81F8D762A000F8BBE /* LaunchScreen.storyboard */,
 				D15759DB1F8D762A000F8BBE /* Info.plist */,
+				D16AC8EA2045F777000A334C /* Images.xcassets */,
 			);
 			path = "Hello World";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15759DA1F8D762A000F8BBE /* LaunchScreen.storyboard in Resources */,
+				D16AC8EB2045F777000A334C /* Images.xcassets in Resources */,
 				D15759D71F8D762A000F8BBE /* Assets.xcassets in Resources */,
 				D15759D51F8D762A000F8BBE /* Main.storyboard in Resources */,
 			);
@@ -275,6 +279,7 @@
 		D15759DF1F8D762A000F8BBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4B6KGSH5F7;
 				INFOPLIST_FILE = "Hello World/Info.plist";
@@ -289,6 +294,7 @@
 		D15759E01F8D762A000F8BBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4B6KGSH5F7;
 				INFOPLIST_FILE = "Hello World/Info.plist";
