@@ -10,9 +10,9 @@
 		D15759D01F8D762A000F8BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15759CF1F8D762A000F8BBE /* AppDelegate.swift */; };
 		D15759D21F8D762A000F8BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15759D11F8D762A000F8BBE /* ViewController.swift */; };
 		D15759D51F8D762A000F8BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15759D31F8D762A000F8BBE /* Main.storyboard */; };
-		D15759D71F8D762A000F8BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15759D61F8D762A000F8BBE /* Assets.xcassets */; };
 		D15759DA1F8D762A000F8BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15759D81F8D762A000F8BBE /* LaunchScreen.storyboard */; };
 		D16AC8EB2045F777000A334C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16AC8EA2045F777000A334C /* Images.xcassets */; };
+		D193D85B224D883900C16C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15759D61F8D762A000F8BBE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +100,7 @@
 				TargetAttributes = {
 					D15759CB1F8D762A000F8BBE = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,7 +130,7 @@
 			files = (
 				D15759DA1F8D762A000F8BBE /* LaunchScreen.storyboard in Resources */,
 				D16AC8EB2045F777000A334C /* Images.xcassets in Resources */,
-				D15759D71F8D762A000F8BBE /* Assets.xcassets in Resources */,
+				D193D85B224D883900C16C05 /* Assets.xcassets in Resources */,
 				D15759D51F8D762A000F8BBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +291,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kurepin.helloworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -305,7 +306,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kurepin.helloworld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
